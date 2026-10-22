@@ -1,29 +1,50 @@
 # Nile Coffee | Sales Analysis and Demand Forecasting
 
-Excel-based monthly sales analysis and demand forecasting for Nile Espresso, Cairo House Blend, and Nile Cold Brew.
+An Excel-based analysis of monthly sales and demand forecasting for three coffee products: **Nile Espresso**, **Cairo House Blend**, and **Nile Cold Brew**.
 
 ## Project overview
 
-This academic Excel project combines monthly sales data, PivotTables, a dashboard, and moving-average and linear-trend demand forecasting.
+This workbook combines a monthly product dataset, PivotTables, a dashboard, and demand forecasting calculations. It was developed as an academic data analysis project to explore product sales patterns and compare forecasting approaches.
 
-## Methods
+## Tools and methods
 
-- Excel formulas including `SUMIFS`
+- Microsoft Excel
 - PivotTables and dashboard charts
-- Moving averages and linear-trend forecasting
-- Comparison with previous company forecasts
+- `SUMIFS` and spreadsheet formulas
+- Simple moving averages
+- Linear trend forecasting
+- Comparison against previous company forecasts
 
-## Workbook sheets
+## Workbook structure
 
-- `Raw_Dataset`: Monthly sales, forecasts, defects, capacity, labour, costs, prices
-- `PivotTables`: Product and monthly summaries
-- `Dashboard`: Sales visualization
-- `Demand Forecasting`: Forecast calculations and six-month outlooks
+| Worksheet | Purpose |
+| --- | --- |
+| `Raw_Dataset` | Monthly product-level sales, forecasts, defects, labour, capacity, costs and prices |
+| `PivotTables` | Summaries of actual monthly sales across products |
+| `Dashboard` | Visual analysis of sales and related business metrics |
+| `Demand Forecasting` | Product-specific moving-average and linear-trend calculations, six-month outlooks, and forecast comparisons |
 
-## How to view
+## Questions explored
 
-Download `Nile_coffee_dataset.xlsx`, open it in Microsoft Excel, and start with `Dashboard`.
+1. How do actual monthly sales differ across the three products?
+2. What sales patterns are visible over the observed months?
+3. What demand levels do moving-average and linear-trend methods forecast?
+4. How do these forecasts compare with the previous company forecasts?
+
+## How to view the project
+
+1. Download `Nile_coffee_dataset.xlsx` from this repository.
+2. Open it in Microsoft Excel for the best support for PivotTables and embedded charts.
+3. Start with the `Dashboard` sheet, then explore `PivotTables` and `Demand Forecasting`.
+
+## Dashboard preview
+
+Add a screenshot to `images/dashboard.png` and then uncomment this line:
+
+<!-- ![Nile Coffee sales dashboard](images/dashboard.png) -->
 
 ## Notes
 
-This is an academic portfolio project. The `Profit` field represents selling price minus production cost per unit, not total period profit.
+- This is an academic portfolio project, not a claim of employment by a company named Nile Coffee.
+- The workbook includes a field labeled `Profit` that calculates *selling price minus production cost per unit*; it should not be interpreted as total period profit without adjusting for sales quantities and other costs.
+- Excel may need to refresh PivotTables or recalculate formulas when opened in a new environment.
